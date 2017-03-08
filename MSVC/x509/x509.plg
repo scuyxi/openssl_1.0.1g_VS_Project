@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: x509 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP2BD.tmp" with contents
+[
+/nologo /subsystem:console /incremental:yes /pdb:"..\..\out32dll\Debug/x509.pdb" /debug /machine:I386 /out:"..\..\out32dll\Debug/x509.exe" /pdbtype:sept 
+\openssl\tmp32dll\Debug\app_rand.obj
+\openssl\tmp32dll\Debug\apps.obj
+\openssl\tmp32dll\Debug\x509.obj
+\openssl\out32dll\Debug\libeay32.lib
+\openssl\out32dll\Debug\SSLeay32.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP2BD.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+x509.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

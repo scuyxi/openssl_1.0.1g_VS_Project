@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD72231E-AB2F-4E83-9413-BAED410DCDEC}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\out32dll\Debug\</OutDir>
+    <IntDir>.\../../tmp32dll/Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\../../out32dll/Release\</OutDir>
+    <IntDir>.\../../tmp32dll/Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\..\..\out32dll\Debug/buildAll.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\../../out32dll/Release/buildAll.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\4758cca\4758cca.vcxproj">
+      <Project>{1044ba63-d9e0-4674-bd20-f4cd28cec9e9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\aep\aep.vcxproj">
+      <Project>{1e0a26d7-f00a-4ec1-8fe3-2df8ad31116c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\asn1parse\asn1parse.vcxproj">
+      <Project>{ecad300a-9da3-4050-8416-bf8a581efbf9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\atalla\atalla.vcxproj">
+      <Project>{b24e41a0-81c5-457b-92a4-8f150c2c5b0f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\bftest\bftest.vcxproj">
+      <Project>{6b583f9d-d886-44b5-9437-d41f3a46422d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\bntest\bntest.vcxproj">
+      <Project>{c6abf92a-c972-4592-9649-53e4ffc66dba}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\capi\capi.vcxproj">
+      <Project>{7db3e9ae-3f26-471f-a88d-89c5cbcae981}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\casttest\casttest.vcxproj">
+      <Project>{7ce02388-a2b2-437b-9c9e-40d5989fa47b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ca\ca.vcxproj">
+      <Project>{23033442-0999-4117-94aa-ba52e5b5c2a6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chil\chil.vcxproj">
+      <Project>{261bab21-8e90-4eeb-b507-7281d65a5673}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ciphers\ciphers.vcxproj">
+      <Project>{6bd58cde-4117-4100-8f39-1983b0f35f19}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cms\cms.vcxproj">
+      <Project>{330526e6-0fbc-412a-8427-bcb2035df5aa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\crl2pkcs7\crl2pkcs7.vcxproj">
+      <Project>{e4a30130-e0b8-42e5-8429-6589cce29f40}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\crl\crl.vcxproj">
+      <Project>{c14b8f56-aedd-41b3-8de7-e7fde8d7c968}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cswift\cswift.vcxproj">
+      <Project>{5e383618-7af3-451e-b4a0-b75db40ce206}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\destest\destest.vcxproj">
+      <Project>{cea1937f-38cc-429c-9e70-72be243bcf69}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\DGST\dgst.vcxproj">
+      <Project>{5f824e1a-9af9-4547-bb59-22e5d5cb4cfc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dhparam\dhparam.vcxproj">
+      <Project>{540431ec-45ee-484c-9297-210ea19e1e01}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dhtest\dhtest.vcxproj">
+      <Project>{5db694f1-5c1d-4aee-9a21-102701d7e073}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dh\dh.vcxproj">
+      <Project>{62bcffe7-68d0-435f-a112-6b197e914d97}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dsaparam\dsaparam.vcxproj">
+      <Project>{d134420c-6b71-4f54-b8c4-afbdfe9f1347}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dsatest\dsatest.vcxproj">
+      <Project>{a9287469-9e1b-4ff5-93f9-87db4029455d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\dsa\dsa.vcxproj">
+      <Project>{c0cc4eb1-00af-4995-97ca-78d12f1f2ab6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ecdhtest\ecdhtest.vcxproj">
+      <Project>{da7d5ee4-412a-4dae-851a-3f249ef1be3c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ecdsatest\ecdsatest.vcxproj">
+      <Project>{e88eb00e-3303-4266-8327-b5183fb4db92}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ectest\ectest.vcxproj">
+      <Project>{684a5b7b-a690-4fa3-b31a-5c110864da30}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\enc\enc.vcxproj">
+      <Project>{c74a1014-8943-4b1f-9bce-08cc7aa39445}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\enginetest\enginetest.vcxproj">
+      <Project>{4ebc4ca2-283f-4dae-a11e-9b1fa51da2fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\engine\engine.vcxproj">
+      <Project>{7184bf8b-857f-42cb-94c2-9194a772cfc7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\errstr\errstr.vcxproj">
+      <Project>{4a23e0a1-128f-4a8f-a0c3-22a832089915}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\evp_test\evp_test.vcxproj">
+      <Project>{27f67aab-399b-47d9-9172-2ff22618548e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\exptest\exptest.vcxproj">
+      <Project>{3deb59bd-6e39-447c-b874-3a566852cd48}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gendh\gendh.vcxproj">
+      <Project>{7d8bab02-aae6-4355-8c5f-41c5df9ae7c1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gendsa\gendsa.vcxproj">
+      <Project>{8cf58bff-6eb4-430b-a7f1-f564f627082a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\genrsa\genrsa.vcxproj">
+      <Project>{c1cabed0-7c2e-4bf9-b024-69d99da08c6a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gmp\gmp.vcxproj">
+      <Project>{f39d37d9-ec2f-4718-99ad-96ae0f23eb75}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gost\gost.vcxproj">
+      <Project>{430df21c-3571-45e3-a3b2-b7db344f2207}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\hmactest\hmactest.vcxproj">
+      <Project>{5880aa80-266b-44de-a059-693b7b5a2cec}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ideatest\ideatest.vcxproj">
+      <Project>{9adfc068-8c76-41dc-8950-865c75179575}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libeay32\libeay32.vcxproj">
+      <Project>{70abe75c-fbc2-4c82-9103-b952fa5cd168}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\md2test\md2test.vcxproj">
+      <Project>{66c08a19-6eb7-4346-a4e6-5a83ad3a4f46}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Md4test\Md4test.vcxproj">
+      <Project>{34b8f927-4702-43a1-b730-77ce45104c4c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\md5test\md5test.vcxproj">
+      <Project>{5af6fc49-7ca1-49b2-8b4f-42ac5552863f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\mdc2test\mdc2test.vcxproj">
+      <Project>{49dd24da-ac52-4fb9-940d-deee6f424c66}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\nseq\nseq.vcxproj">
+      <Project>{fcf9e326-312f-4777-a7fa-7fef211b644e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\nuron\nuron.vcxproj">
+      <Project>{3bc2f274-6ea2-4711-ac25-917f468caf77}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\OCSP\ocsp.vcxproj">
+      <Project>{95553761-06f1-4f25-98fe-65c72e65ba55}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\openssl\openssl.vcxproj">
+      <Project>{d28c0ecf-2cac-477b-a9a2-5618024bd8b4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\padlock\padlock.vcxproj">
+      <Project>{7fbdb4e6-df45-4a69-aeb9-1f0735b6f896}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\passwd\passwd.vcxproj">
+      <Project>{f99a8f3e-c74f-41b7-9dde-7da92e0d8a6f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\pkcs12\pkcs12.vcxproj">
+      <Project>{b8aabf4a-076f-435b-8262-c729a18e1082}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\pkcs7\pkcs7.vcxproj">
+      <Project>{03ed49cc-936e-4881-ad27-af7229255586}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\pkcs8\pkcs8.vcxproj">
+      <Project>{679a5001-9400-43f3-a7d7-6f5fff781010}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\randtest\randtest.vcxproj">
+      <Project>{e410ce6e-7558-4dda-9201-6caef5482a1a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rand\rand.vcxproj">
+      <Project>{4a0a6c96-dc9c-4ebd-9b14-90a86de7f3ae}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rc2test\rc2test.vcxproj">
+      <Project>{8e8143e0-b6cb-4590-89d4-cb26ae0fe606}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rc4test\rc4test.vcxproj">
+      <Project>{d3ef37e4-12b2-48d7-a772-e0903c4d0e82}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rc5test\rc5test.vcxproj">
+      <Project>{c96c4ad2-5df5-4b3c-b13a-2ec3f8d445db}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\req\req.vcxproj">
+      <Project>{c40ec56c-7da1-4826-bf4b-fd3c0245e2e9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rmdtest\rmdtest.vcxproj">
+      <Project>{d3098930-5b8c-4281-9292-3b870b0137fb}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rsatest\rsatest.vcxproj">
+      <Project>{4e179bcf-c9a7-4107-ad29-2103341770d7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rsautl\Rsautl.vcxproj">
+      <Project>{1bff068a-c383-4ae7-8294-495f146eb38c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\rsa\rsa.vcxproj">
+      <Project>{5c716fde-8d65-4043-8e9d-7346b24a200e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sess_id\sess_id.vcxproj">
+      <Project>{2ada5665-3399-41f3-b9b4-e4e0bc6ce4d2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sha1test\sha1test.vcxproj">
+      <Project>{c55f356f-cd6c-404c-984f-f7dfe9fa591a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sha256t\sha256t.vcxproj">
+      <Project>{4383be3d-214f-4bdb-a3ad-b9ce5255fd35}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sha512t\sha512t.vcxproj">
+      <Project>{dc34f9ac-2706-48a6-8a8b-cf972f866f6d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\shatest\shatest.vcxproj">
+      <Project>{92afac90-704f-4335-9f75-be677ac80783}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\smime\smime.vcxproj">
+      <Project>{7bfc994b-ffd9-47fb-a382-dd3a5097d738}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\speed\speed.vcxproj">
+      <Project>{b77543d3-37ba-4285-a20e-946cc98d8b21}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\spkac\spkac.vcxproj">
+      <Project>{df12a1ed-a161-41ea-a7b7-06568b181737}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ssleay32\SSLeay32.vcxproj">
+      <Project>{24265bd3-3cf3-41a9-b137-53dbec0f53bf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ssltest\ssltest.vcxproj">
+      <Project>{71878afd-b11b-4a06-84e7-739caff616f4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sureware\sureware.vcxproj">
+      <Project>{45d3c378-fbf1-46b0-88ca-98f2480bdfe9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\s_client\s_client.vcxproj">
+      <Project>{ddd0d559-c647-42b7-b5b9-df29adb9e093}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\s_server\s_server.vcxproj">
+      <Project>{c948943c-1694-4b5b-b128-995485321e25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\s_time\s_time.vcxproj">
+      <Project>{021fa9e3-67cd-4e7f-a1bb-6826e31b41fa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ubsec\ubsec.vcxproj">
+      <Project>{12d79c3d-4496-42d2-8f19-50daaf5a81b8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\verify\verify.vcxproj">
+      <Project>{b2935dfb-c21e-441b-a745-a40ac889e74d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\version\version.vcxproj">
+      <Project>{95525729-baa6-46cd-a829-fa6b708fea92}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\wp_test\wp_test.vcxproj">
+      <Project>{04308b71-025e-46dc-a615-970e22058626}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\x509\x509.vcxproj">
+      <Project>{5b482921-7063-41e0-bb08-063b41a9a04f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

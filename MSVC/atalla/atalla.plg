@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: atalla - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP219.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"..\..\out32dll\Debug/atalla.pdb" /debug /machine:I386 /out:"..\..\out32dll\Debug/atalla.dll" /implib:"..\..\out32dll\Debug/atalla.lib" /pdbtype:sept 
+\openssl\tmp32dll\Debug\e_atalla.obj
+\openssl\tmp32dll\Debug\e_atalla_err.obj
+\openssl\out32dll\Debug\libeay32.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP219.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ..\..\out32dll\Debug/atalla.lib and object ..\..\out32dll\Debug/atalla.exp
+
+
+
+<h3>Results</h3>
+atalla.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

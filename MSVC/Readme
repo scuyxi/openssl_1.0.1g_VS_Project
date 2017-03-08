@@ -1,0 +1,94 @@
+
+http://www.iconsinc.com/~agray/ossldev/
+
+Developer Studio Workspace and Project files for openssl-0.9.7
+Changes since 0.9.6
+1. Removed precompiled header generation
+2. Added support for masm and nasm as separate distributions located at the address above.
+
+Installation:
+1. Extract openssl-0.9.7.tar.gz as you normally would.
+
+2. Extract VC6ossl097.zip targetting the openssl-0.9.7 (or whatever name it's in)
+directory.  This will create another directory named "msvc" at the top 
+of the OpenSSL directory tree.  
+
+3. Open a command prompt and run "perl Configure VC-WIN32" as per the 
+instructions in the $openssl-0.9.7_ROOT/Install.w32 file.  Then run "ms\do_ms.bat"
+
+4. At your command prompt and from the openssl root directory run:
+"perl msvc097\doinc.pl"  This is a quick hack that creates the output
+directories and copies the header files much as what ntdll.mak does at
+the start of a command linebuild.  All of the dependencies for header
+file locations are built into the developer studio workspace.
+
+5. Open the developer studio workspace - openssl-0.9.7\msvc097\openssl.dsw
+This will open up a Microsoft Developer Studio Workspace containing 50 or so
+projects.  Dependancies are built into the workspace -
+i.e. libeay32.dll will be built automatically before asn1parse.
+Executables are both built independently and also as openssl.exe.
+
+6. It's best to do a "batch build" first.  Menu:Build/Batch
+Build... And build both the release and debug builds for everything -
+If any errors arise then .....->
+
+
+Known Issues:
+Req.exe and ocsp.exe are both broken as standalone executable builds due to
+their inclusion of functions implemented within ca.c.
+
+Things that typically cause errors:
+
+1.Make sure that ALL Microsoft SDKs are removed from your default include path in 
+Menu:Tools/Options | Directories. 
+
+2.Not Running configure or ms/do_ms.bat in step 3.
+
+
+Other things:
+
+This has been built using NT4 sp6, and Win2K sp2.
+
+The default c runtime for all debug workspaces is Debug Multithreaded dll. For 
+the Release build it is Multithreaded dll.  If you change it - What ever you 
+do don't mix it across projects - that is make sure its consistent across everything...
+
+I dump everything into out32dll/Debug for the debug build.  It goes into 
+out32dll/Release for the release build. If either directory doesn't exist, it 
+will be created on the first build.  This can be changed in the Project Settings tab.
+
+In a cursory run through - all the tests listed above succeed.  You'll have to twiddle 
+the default ssleay.cnf file for testing for stuff like req, ca , etc, but they all 
+seem to work.
+
+RSAREF stuff is not included nor no longer needed in the U.S.
+
+Oh yea- this stuff is hereby put into the public domain but if you use it dont forget
+that all the source files which it wraps are Erics and Tims:
+
+ * Copyright remains Eric Young's, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+
+ * 4. If you include any Windows specific code (or a derivative thereof) from 
+ *    the apps directory (application code) you must include an acknowledgement:
+ *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+
+ and of course:
+ lots of it is Copyright (c) 1998-2000 The OpenSSL Project.  All rights reserved.
+
+And if you end up really using it alot, buy me a beer if you ever run into me :-)
+
+Andrew Gray
+agray@iconsinc.com
+
+
+
+
+
+
+
+

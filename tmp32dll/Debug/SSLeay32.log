@@ -1,0 +1,59 @@
+﻿Build started 2017/3/9 星期四 0:03:21.
+     1>Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\SSLeay32.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\out32dll\Debug/SSLeay32.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\ms\ssleay32.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\out32dll\Debug/SSLeay32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\..\..\out32dll\Debug/SSLeay32.lib" /MACHINE:X86 /SAFESEH /DLL .\..\..\tmp32dll\Debug/bio_ssl.obj
+         .\..\..\tmp32dll\Debug/d1_both.obj
+         .\..\..\tmp32dll\Debug/d1_clnt.obj
+         .\..\..\tmp32dll\Debug/d1_enc.obj
+         .\..\..\tmp32dll\Debug/d1_lib.obj
+         .\..\..\tmp32dll\Debug/d1_meth.obj
+         .\..\..\tmp32dll\Debug/d1_pkt.obj
+         .\..\..\tmp32dll\Debug/d1_srtp.obj
+         .\..\..\tmp32dll\Debug/d1_srvr.obj
+         .\..\..\tmp32dll\Debug/kssl.obj
+         .\..\..\tmp32dll\Debug/ocspa.obj
+         .\..\..\tmp32dll\Debug/s23_clnt.obj
+         .\..\..\tmp32dll\Debug/s23_lib.obj
+         .\..\..\tmp32dll\Debug/s23_meth.obj
+         .\..\..\tmp32dll\Debug/s23_pkt.obj
+         .\..\..\tmp32dll\Debug/s23_srvr.obj
+         .\..\..\tmp32dll\Debug/s2_clnt.obj
+         .\..\..\tmp32dll\Debug/s2_enc.obj
+         .\..\..\tmp32dll\Debug/s2_lib.obj
+         .\..\..\tmp32dll\Debug/s2_meth.obj
+         .\..\..\tmp32dll\Debug/s2_pkt.obj
+         .\..\..\tmp32dll\Debug/s2_srvr.obj
+         .\..\..\tmp32dll\Debug/s3_both.obj
+         .\..\..\tmp32dll\Debug/s3_cbc.obj
+         .\..\..\tmp32dll\Debug/s3_clnt.obj
+         .\..\..\tmp32dll\Debug/s3_enc.obj
+         .\..\..\tmp32dll\Debug/s3_lib.obj
+         .\..\..\tmp32dll\Debug/s3_meth.obj
+         .\..\..\tmp32dll\Debug/s3_pkt.obj
+         .\..\..\tmp32dll\Debug/s3_srvr.obj
+         .\..\..\tmp32dll\Debug/ssl_algs.obj
+         .\..\..\tmp32dll\Debug/ssl_asn1.obj
+         .\..\..\tmp32dll\Debug/ssl_cert.obj
+         .\..\..\tmp32dll\Debug/ssl_ciph.obj
+         .\..\..\tmp32dll\Debug/ssl_err.obj
+         .\..\..\tmp32dll\Debug/ssl_err2.obj
+         .\..\..\tmp32dll\Debug/ssl_lib.obj
+         .\..\..\tmp32dll\Debug/ssl_rsa.obj
+         .\..\..\tmp32dll\Debug/ssl_sess.obj
+         .\..\..\tmp32dll\Debug/ssl_stat.obj
+         .\..\..\tmp32dll\Debug/ssl_txt.obj
+         .\..\..\tmp32dll\Debug/t1_clnt.obj
+         .\..\..\tmp32dll\Debug/t1_enc.obj
+         .\..\..\tmp32dll\Debug/t1_lib.obj
+         .\..\..\tmp32dll\Debug/t1_meth.obj
+         .\..\..\tmp32dll\Debug/t1_reneg.obj
+         .\..\..\tmp32dll\Debug/t1_srvr.obj
+         .\..\..\tmp32dll\Debug/tls_srp.obj
+         "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\out32dll\Debug\libeay32.lib"
+            Creating library .\..\..\out32dll\Debug/SSLeay32.lib and object .\..\..\out32dll\Debug/SSLeay32.exp
+         SSLeay32.vcxproj -> F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\.\..\..\out32dll\Debug\SSLeay32.dll
+     1>Done Building Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\SSLeay32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93

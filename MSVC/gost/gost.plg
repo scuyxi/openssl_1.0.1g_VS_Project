@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gost - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP263.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"..\..\out32dll\Debug/gost.pdb" /debug /machine:I386 /out:"..\..\out32dll\Debug/gost.dll" /implib:"..\..\out32dll\Debug/gost.lib" /pdbtype:sept 
+\openssl\tmp32dll\Debug\e_gost_err.obj
+\openssl\tmp32dll\Debug\gost2001.obj
+\openssl\tmp32dll\Debug\gost2001_keyx.obj
+\openssl\tmp32dll\Debug\gost89.obj
+\openssl\tmp32dll\Debug\gost94_keyx.obj
+\openssl\tmp32dll\Debug\gost_ameth.obj
+\openssl\tmp32dll\Debug\gost_asn1.obj
+\openssl\tmp32dll\Debug\gost_crypt.obj
+\openssl\tmp32dll\Debug\gost_ctl.obj
+\openssl\tmp32dll\Debug\gost_eng.obj
+\openssl\tmp32dll\Debug\gost_keywrap.obj
+\openssl\tmp32dll\Debug\gost_md.obj
+\openssl\tmp32dll\Debug\gost_params.obj
+\openssl\tmp32dll\Debug\gost_pmeth.obj
+\openssl\tmp32dll\Debug\gost_sign.obj
+\openssl\tmp32dll\Debug\gosthash.obj
+\openssl\out32dll\Debug\libeay32.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Hello\LOCALS~1\Temp\RSP263.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ..\..\out32dll\Debug/gost.lib and object ..\..\out32dll\Debug/gost.exp
+
+
+
+<h3>Results</h3>
+gost.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿Build started 2017/3/8 星期三 23:50:06.
+     1>Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ciphers\ciphers.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\.. /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D _CONSOLE /D WIN32 /D WIN32_LEAN_AND_MEAN /D NOCRYPT /D OPENSSL_THREADS /D DSO_WIN32 /D OPENSSL_SYSNAME_WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\tmp32dll\Release/" /Fd".\..\..\tmp32dll\Release/vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\apps\apps.c
+         apps.c
+     1>..\..\apps\apps.c(655): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(449) : see declaration of 'getenv'
+     1>..\..\apps\apps.c(2326): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\out32dll\Release/ciphers.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\out32dll\Release/ciphers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\..\..\out32dll\Release\ciphers.lib" /MACHINE:X86 /SAFESEH .\..\..\tmp32dll\Release/apps.obj
+         .\..\..\tmp32dll\Release/ciphers.obj
+         "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\out32dll\Release\libeay32.lib"
+         "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\out32dll\Release\SSLeay32.lib"
+         ciphers.vcxproj -> F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ciphers\.\..\..\out32dll\Release\ciphers.exe
+     1>Done Building Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ciphers\ciphers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.00

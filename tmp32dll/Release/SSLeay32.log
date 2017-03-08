@@ -1,0 +1,59 @@
+﻿Build started 2017/3/8 星期三 23:50:04.
+     1>Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\SSLeay32.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\out32dll\Release/SSLeay32.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\ms\ssleay32.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\out32dll\Release/SSLeay32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\..\..\out32dll\Release/SSLeay32.lib" /MACHINE:X86 /SAFESEH /DLL .\..\..\tmp32dll\Release/bio_ssl.obj
+         .\..\..\tmp32dll\Release/d1_both.obj
+         .\..\..\tmp32dll\Release/d1_clnt.obj
+         .\..\..\tmp32dll\Release/d1_enc.obj
+         .\..\..\tmp32dll\Release/d1_lib.obj
+         .\..\..\tmp32dll\Release/d1_meth.obj
+         .\..\..\tmp32dll\Release/d1_pkt.obj
+         .\..\..\tmp32dll\Release/d1_srtp.obj
+         .\..\..\tmp32dll\Release/d1_srvr.obj
+         .\..\..\tmp32dll\Release/kssl.obj
+         .\..\..\tmp32dll\Release/ocspa.obj
+         .\..\..\tmp32dll\Release/s23_clnt.obj
+         .\..\..\tmp32dll\Release/s23_lib.obj
+         .\..\..\tmp32dll\Release/s23_meth.obj
+         .\..\..\tmp32dll\Release/s23_pkt.obj
+         .\..\..\tmp32dll\Release/s23_srvr.obj
+         .\..\..\tmp32dll\Release/s2_clnt.obj
+         .\..\..\tmp32dll\Release/s2_enc.obj
+         .\..\..\tmp32dll\Release/s2_lib.obj
+         .\..\..\tmp32dll\Release/s2_meth.obj
+         .\..\..\tmp32dll\Release/s2_pkt.obj
+         .\..\..\tmp32dll\Release/s2_srvr.obj
+         .\..\..\tmp32dll\Release/s3_both.obj
+         .\..\..\tmp32dll\Release/s3_cbc.obj
+         .\..\..\tmp32dll\Release/s3_clnt.obj
+         .\..\..\tmp32dll\Release/s3_enc.obj
+         .\..\..\tmp32dll\Release/s3_lib.obj
+         .\..\..\tmp32dll\Release/s3_meth.obj
+         .\..\..\tmp32dll\Release/s3_pkt.obj
+         .\..\..\tmp32dll\Release/s3_srvr.obj
+         .\..\..\tmp32dll\Release/ssl_algs.obj
+         .\..\..\tmp32dll\Release/ssl_asn1.obj
+         .\..\..\tmp32dll\Release/ssl_cert.obj
+         .\..\..\tmp32dll\Release/ssl_ciph.obj
+         .\..\..\tmp32dll\Release/ssl_err.obj
+         .\..\..\tmp32dll\Release/ssl_err2.obj
+         .\..\..\tmp32dll\Release/ssl_lib.obj
+         .\..\..\tmp32dll\Release/ssl_rsa.obj
+         .\..\..\tmp32dll\Release/ssl_sess.obj
+         .\..\..\tmp32dll\Release/ssl_stat.obj
+         .\..\..\tmp32dll\Release/ssl_txt.obj
+         .\..\..\tmp32dll\Release/t1_clnt.obj
+         .\..\..\tmp32dll\Release/t1_enc.obj
+         .\..\..\tmp32dll\Release/t1_lib.obj
+         .\..\..\tmp32dll\Release/t1_meth.obj
+         .\..\..\tmp32dll\Release/t1_reneg.obj
+         .\..\..\tmp32dll\Release/t1_srvr.obj
+         .\..\..\tmp32dll\Release/tls_srp.obj
+         "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\out32dll\Release\libeay32.lib"
+            Creating library .\..\..\out32dll\Release/SSLeay32.lib and object .\..\..\out32dll\Release/SSLeay32.exp
+         SSLeay32.vcxproj -> F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\.\..\..\out32dll\Release\SSLeay32.dll
+     1>Done Building Project "F:\x\openssl\OpenSSL VS_Project\openssl-1.0.1g_VS2008\MSVC\ssleay32\SSLeay32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

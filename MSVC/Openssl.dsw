@@ -1,0 +1,1544 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "4758cca"=.\4758cca\4758cca.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SSLeay32"=.\ssleay32\SSLeay32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "aep"=.\aep\aep.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "asn1parse"=.\asn1parse\asn1parse.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "atalla"=.\atalla\atalla.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "bftest"=.\bftest\bftest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "bntest"=.\bntest\bntest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "buildAll"=.\buildAll\buildAll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name 4758cca
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name aep
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Asn1parse
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name atalla
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bftest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bntest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ca
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name capi
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name casttest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name chil
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ciphers
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name cms
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name crl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name crl2pkcs7
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name cswift
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name demos
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name destest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DGST
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dh
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dhparam
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dhtest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dsa
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dsaparam
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dsatest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ecdhtest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ecdsatest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ectest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name enc
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name engine
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name enginetest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name errstr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name evp_test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name exptest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gendh
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gendsa
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name genrsa
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gost
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name hmactest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ideatest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name md2test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name md4test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name md5test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name mdc2test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name nseq
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name nuron
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name OCSP
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name openssl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name padlock
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name passwd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pkcs7
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pkcs8
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name pkcs12
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rand
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name randtest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rc2test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rc4test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rc5test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name req
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rmdtest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rsa
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rsatest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rsautl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name s_client
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name s_server
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name s_time
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sess_id
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sha1test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sha256t
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sha512t
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name shatest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name smime
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name speed
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name spkac
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ssleay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ssltest
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sureware
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ubsec
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name verify
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name version
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wp_test
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name x509
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ca"=.\ca\ca.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "capi"=.\capi\capi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "casttest"=.\casttest\casttest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chil"=.\chil\chil.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ciphers"=.\ciphers\ciphers.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "cms"=.\cms\cms.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "crl"=.\crl\crl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "crl2pkcs7"=.\crl2pkcs7\crl2pkcs7.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "cswift"=.\cswift\cswift.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "destest"=.\destest\destest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dgst"=.\dgst\dgst.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dh"=.\dh\dh.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dhparam"=.\dhparam\dhparam.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dhtest"=.\dhtest\dhtest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dsa"=.\dsa\dsa.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dsaparam"=.\dsaparam\dsaparam.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dsatest"=.\dsatest\dsatest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ecdhtest"=.\ecdhtest\ecdhtest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ecdsatest"=.\ecdsatest\ecdsatest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ectest"=.\ectest\ectest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "enc"=.\enc\enc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "engine"=.\engine\engine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "enginetest"=.\enginetest\enginetest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "errstr"=.\errstr\errstr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "evp_test"=.\evp_test\evp_test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "exptest"=.\exptest\exptest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gendh"=.\gendh\gendh.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gendsa"=.\gendsa\gendsa.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "genrsa"=.\genrsa\genrsa.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gmp"=.\gmp\gmp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gost"=.\gost\gost.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "hmactest"=.\hmactest\hmactest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ideatest"=.\ideatest\ideatest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "libeay32"=.\libeay32\libeay32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "md2test"=.\md2test\md2test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "md4test"=.\Md4test\Md4test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "md5test"=.\md5test\md5test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mdc2test"=.\mdc2test\mdc2test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "nseq"=.\nseq\nseq.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "nuron"=.\nuron\nuron.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ocsp"=.\ocsp\ocsp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "openssl"=.\openssl\openssl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "padlock"=.\padlock\padlock.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "passwd"=.\passwd\passwd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pkcs12"=.\pkcs12\pkcs12.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pkcs7"=.\pkcs7\pkcs7.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pkcs8"=.\pkcs8\pkcs8.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rand"=.\rand\rand.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "randtest"=.\randtest\randtest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rc2test"=.\rc2test\rc2test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rc4test"=.\rc4test\rc4test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rc5test"=.\rc5test\rc5test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "req"=.\req\req.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rmdtest"=.\rmdtest\rmdtest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rsa"=.\rsa\rsa.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rsatest"=.\rsatest\rsatest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rsautl"=.\Rsautl\Rsautl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "s_client"=.\s_client\s_client.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "s_server"=.\s_server\s_server.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "s_time"=.\s_time\s_time.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sess_id"=.\sess_id\sess_id.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sha1test"=.\sha1test\sha1test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sha256t"=.\sha256t\sha256t.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sha512t"=.\sha512t\sha512t.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "shatest"=.\shatest\shatest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "smime"=.\smime\smime.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "speed"=.\speed\speed.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "spkac"=.\spkac\spkac.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ssltest"=.\ssltest\ssltest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sureware"=.\sureware\sureware.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ubsec"=.\ubsec\ubsec.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "verify"=.\verify\verify.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "version"=.\version\version.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "wp_test"=.\wp_test\wp_test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "x509"=.\x509\x509.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libeay32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SSLeay32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
